@@ -1,2 +1,3 @@
 declare module 'textlint-rule-no-todo'
-declare module '@textlint/textlint-plugin-markdown'
+declare module 'textlint-rule-no-mix-dearu-desumasu'
+declare module 'textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet'

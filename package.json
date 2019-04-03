@@ -2,7 +2,6 @@
   "name": "textlint-web-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,12 +9,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "textlint": "^11.2.3"
+    "@material-ui/core": "^3.9.3",
+    "debounce": "^1.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "textlint": "^11.2.3",
+    "textlint-rule-no-mix-dearu-desumasu": "^4.0.0",
+    "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
+    "textlint-rule-no-todo": "^2.0.1"
   },
   "devDependencies": {
+    "@types/debounce": "^1.2.0",
+    "@types/react-dom": "^16.8.3",
     "parcel-bundler": "^1.12.3",
-    "textlint-rule-no-todo": "^2.0.1",
-    "ts-node": "^8.0.3",
     "typescript": "^3.4.1"
   }
 }
